@@ -6,7 +6,7 @@ export const Bio = {
     "Student",
   ],
   description:
-    "I am a final year student at NIT Warangal. I'm eager to take on new challenges. With a passion for learning. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a final year student at NIT Warangal. I'm eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   Leetcode: "https://leetcode.com/ashok_molagavalli/",
   resume: "https://drive.google.com/drive/folders/1ZeuhkUDLX0cozVDUr2d0H-llFezHH7DE",
   linkedin: "https://www.linkedin.com/in/ashokmolagavalli/",
