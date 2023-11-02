@@ -148,32 +148,28 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { from_email, from_name, subject, message } = form.current.elements;
-
+  
+    // Trim the input values to remove leading and trailing spaces
+    const email = from_email.value.trim();
+    const name = from_name.value.trim();
+    const subjectValue = subject.value.trim();
+    const messageValue = message.value.trim();
+  
     // Check if mandatory fields are empty
-    if (
-      !from_email.value ||
-      !from_name.value ||
-      !subject.value ||
-      !message.value
-    ) {
+    if (!email || !name || !subjectValue || !messageValue) {
       // Set fieldErrors state to indicate which fields are empty
       setFieldErrors({
-        from_email: !from_email.value,
-        from_name: !from_name.value,
-        subject: !subject.value,
-        message: !message.value
+        from_email: !email,
+        from_name: !name,
+        subject: !subjectValue,
+        message: !messageValue,
       });
       return;
     }
-
+  
     // If all mandatory fields are filled, proceed to send the email
     emailjs
-      .sendForm(
-        "service_yiuujub",
-        "template_k0lrnny",
-        form.current,
-        "LQQVekDT6rll51ewg"
-      )
+      .sendForm('service_yiuujub', 'template_k0lrnny', form.current, 'LQQVekDT6rll51ewg')
       .then(
         (result) => {
           setOpen(true);
@@ -184,7 +180,7 @@ const Contact = () => {
         }
       );
   };
-
+  
   return (
     <Container id="Contact">
       <Wrapper>
