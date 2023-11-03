@@ -157,7 +157,7 @@ export const experiences = [
     id: 0,
     img: "https://d6xcmfyh68wv8.cloudfront.net/newsroom-content/uploads/2022/07/Razorpay_payments.png",
     role: "Software Development Engineer Intern",
-    company: "Razorpay",
+    company: "Razorpay, Bangalore",
     date: "May 2023 - July 2023",
     desc: "Collaberated with Security Engineering Team to execute a comprehensive assessments on 140 Razorpay Payment gatewats. Implemented an automated CI/CD pipeline to seamlessly onboard new gateway integrations on Razorpay’s GitHub Repo on Akto Using Github Actions. Automated a suite of over 50 test cases for each Gateway Integration and successfully pinpointed potential instances of money loss and other critical API flaws",
     skills: [
