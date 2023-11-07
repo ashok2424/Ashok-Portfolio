@@ -6,7 +6,7 @@ export const Bio = {
     "Student",
   ],
   description:
-    "I am a final year student at NIT Warangal. I'm eager to take on new challenges. With a passion for learning. I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a final year student at NIT Warangal. I'm eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   Leetcode: "https://leetcode.com/ashok_molagavalli/",
   resume: "https://drive.google.com/drive/folders/1ZeuhkUDLX0cozVDUr2d0H-llFezHH7DE",
   linkedin: "https://www.linkedin.com/in/ashokmolagavalli/",
@@ -157,9 +157,9 @@ export const experiences = [
     id: 0,
     img: "https://d6xcmfyh68wv8.cloudfront.net/newsroom-content/uploads/2022/07/Razorpay_payments.png",
     role: "Software Development Engineer Intern",
-    company: "Razorpay",
+    company: "Razorpay, Bangalore",
     date: "May 2023 - July 2023",
-    desc: "Collaberated with Security Engineering Team to o execute comprehensive assessments on 140 Razorpay Payment gatewats. Implemented an automated CI/CD pipeline to seamlessly onboard new gateway integrations on Razorpay’s GitHub Repo on Akto Using Github Actions. Automated a suite of over 50 test cases for each Gateway Integration and successfully pinpointed potential instances of monet loss and other critical API flaws",
+    desc: "Collaberated with Security Engineering Team to execute a comprehensive assessments on 140 Razorpay Payment gatewats. Implemented an automated CI/CD pipeline to seamlessly onboard new gateway integrations on Razorpay’s GitHub Repo on Akto Using Github Actions. Automated a suite of over 50 test cases for each Gateway Integration and successfully pinpointed potential instances of money loss and other critical API flaws",
     skills: [
       "Akto",
       "BurpSuite",
@@ -181,7 +181,7 @@ export const education = [
     school: "National Institute of Technology, Warangal",
     date: "Oct 2020 - Apr 2024",
     grade: "7.44 CGPA",
-    desc: "I am currently pursuing final year of my bachelor's degree at National Institute of Technology, Warangal. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I am currently pursuing final year of my bachelor's degree at National Institute of Technology, Warangal. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks.",
   },
   {
     id: 1,
